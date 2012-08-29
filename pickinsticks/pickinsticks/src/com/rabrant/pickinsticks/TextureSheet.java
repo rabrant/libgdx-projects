@@ -57,14 +57,18 @@ public class TextureSheet {
 	}
 	public void setIndex(int index)
 	{
-	    myIndex = index;
+		if (index >= 0 && index < getCols() * getRows()) {
+			myIndex = index;
 
-	    int frameCol = myIndex % myCols;
-	    int frameRow = myIndex / myCols;
+	    	int frameCol = myIndex % myCols;
+	    	int frameRow = myIndex / myCols;
 
-	    myRegionLeft = frameCol * myFrameWidth;
-	    myRegionTop = frameRow * myFrameHeight;
-	    myRegion.setRegion(myRegionLeft, myRegionTop, myFrameWidth, myFrameHeight);
+	    	myRegionLeft = frameCol * myFrameWidth;
+	    	myRegionTop = frameRow * myFrameHeight;
+	    	myRegion.setRegion(myRegionLeft, myRegionTop, myFrameWidth, myFrameHeight);
+		} else {
+			myIndex = 0;
+		}
 	}
 	
 	public TextureRegion getRegion() {

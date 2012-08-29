@@ -36,7 +36,7 @@ public class AnimationSet {
 	
 	public void setCurFrame(int curFrame) {
 		myCurFrame = curFrame;
-	    if (myCurFrame >= myFrames.size())
+	    if (myCurFrame >= myFrames.size() || myCurFrame < 0)
 	    {
 	        myCurFrame = 0; // Loop Back To Begining.
 	    }
