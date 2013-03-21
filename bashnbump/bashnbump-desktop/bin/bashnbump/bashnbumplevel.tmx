@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<map height="32" orientation="orthogonal" tileheight="40" tilewidth="40" version="1.0" width="32">
+	<properties>
+		<property name="blended tiles" value=""/>
+	</properties>
+ 	<tileset firstgid="1" name="Drawables" tileheight="40" tilewidth="40">
+  		<image height="120" source="bnbTiles.png" width="160"/>
+ 	</tileset>
+ 	<layer height="32" name="Tile Layer 1" width="32">
+  		<data compression="zlib" encoding="base64">
+   			eJzt1rEKgDAMRdFoo2L9///1DQ5ZuuY53MCdT6EEkhGRX12Tixz+pnY1Gv1qHupUV6NfzVtN9TT61XT/f6e7ege+z2f/2X/X4OPj4+Pju3zun//cP45etvUCtQ==
+  		</data>
+ 	</layer>
+</map>

@@ -1,0 +1,68 @@
+
+bnbMapTilesDraw1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bnbMapTilesDraw
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 5
+bnbMapTilesDraw
+  rotate: false
+  xy: 44, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 6
+bnbMapTilesDraw
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 7
+bnbMapTilesDraw
+  rotate: false
+  xy: 2, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 8
+bnbMapTilesDraw
+  rotate: false
+  xy: 86, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 4
+bnbMapTilesDraw
+  rotate: false
+  xy: 86, 2
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 3
+bnbMapTilesDraw
+  rotate: false
+  xy: 2, 44
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 2
+bnbMapTilesDraw
+  rotate: false
+  xy: 2, 86
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 1
+bnbMapTilesDraw
+  rotate: false
+  xy: 44, 44
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: 0
